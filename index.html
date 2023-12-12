@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Emai list API</title>
+</head>
+<body>
+
+    <main id="app">
+        <h1>Random Email List</h1>
+        <div class="wrapper">
+            <li v-for="element in emailArr">
+                {{ element }}
+            </li>
+        </div>
+    </main>
+
+    <!-- Js - Vue - Axios -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
